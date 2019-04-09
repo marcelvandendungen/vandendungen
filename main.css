@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #fffcf5;
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 .status {
@@ -18,6 +19,11 @@ body {
     color: #e8cd39;
 }
 
+.content {
+  margin: 50px;
+  line-height: 140%;
+}
+
 .footer {
     font: 0.7em normal Verdana, Arial, Helvetica, sans-serif;
     color: #9a9a9a;
@@ -31,4 +37,14 @@ body {
   .copyright {
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  .entries {
+    font: 1 em normal Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    list-style: none;
+  }
+
+  #links a img {
+    margin: 10px;
   }
