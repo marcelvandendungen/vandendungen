@@ -32,18 +32,13 @@
         <p>Tot de volgende keer!</p>
     </div>
     <footer class="footer">
-        <div class="copyright">
-        </a> &copy; 2018 - Marcel van den Dungen, All rights reserved</p>
-    </div>
+        <div id="footer"></div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-        $('img').each(function() {
-            var $img = $(this);
-            $img.width($img.width() * .5);
+        $(function(){
+            $("#footer").load("/footer.html"); 
         });
-    });
     </script>
 </body>
 
