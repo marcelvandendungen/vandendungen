@@ -4,6 +4,13 @@ body {
     font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 85%; */
+}
+
 .status {
     margin-top: 3em;
     margin-left: 1em;
@@ -22,6 +29,10 @@ body {
 .content {
   margin: 50px;
   line-height: 140%;
+}
+
+.index {
+  margin-left: 20em;
 }
 
 .footer {
@@ -47,4 +58,15 @@ body {
 
   #links a img {
     margin: 10px;
+  }
+
+  .navigation {
+    margin: 1em;
+  }
+
+  .next {
+    float: right;
+  }
+
+  .prev {
   }
