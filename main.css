@@ -45,28 +45,23 @@ body {
     width: 100%;
   }
 
-  .copyright {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+.copyright {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
-  .entries {
-    font: 1 em normal Verdana, Arial, Helvetica, sans-serif;
-    letter-spacing: 0.1em;
-    list-style: none;
-  }
+.entries {
+  font: 1 em normal Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  list-style: none;
+}
 
-  #links a img {
-    margin: 10px;
-  }
+#links a img {
+  margin: 10px;
+}
 
-  .navigation {
-    margin: 1em;
-  }
-
-  .next {
-    float: right;
-  }
-
-  .prev {
-  }
+.navigation {
+  margin: 1em;
+  display: flex; 
+  justify-content: space-between;
+}
