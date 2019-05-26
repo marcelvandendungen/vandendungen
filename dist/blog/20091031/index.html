@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.33.0/css/blueimp-gallery.min.css" integrity="sha256-Y0i7rzAjNSxOrq/x6gK6k0OeK1V2WNWwjh0/l+KapNk=" crossorigin="anonymous" />
+    <title>van den Dungen - Blog - Seattle en omgeving</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <span class="prev"><a href="/blog/20090713/">Previous</a></span>
+        <span class="next"><a href="/blog/20091115/">Next</a></span>
+    </div>
+    <div class="content">
+        <h1>Seattle en omgeving</h1>
+        <div>Gepubliceerd op 31 oktober 2009</div>
+        <p>Na een lange maar goed verlopen reis zijn we eindelijk op de plaats van bestemming aangekomen! Het was een
+            heel gesleep met alle bagage. Maar met de hotelovernachting verliep het allemaal toch gezellig en rustig.
+            Ook voor de koters was dit fijn.</p>
+        <div id="links" class="gallery">
+            <a href="img/1d33bca73a3db190f098a3d011b09cee.jpg"><img src="thumb/1d33bca73a3db190f098a3d011b09cee.jpg"></a>
+            <a href="img/2bb19f3f29cd7141de35e01b12f9f5b5.jpg"><img src="thumb/2bb19f3f29cd7141de35e01b12f9f5b5.jpg"></a>
+            <a href="img/0f13893ab3221ce0c25126d8d47869b0.jpg"><img src="thumb/0f13893ab3221ce0c25126d8d47869b0.jpg"></a>
+        </div>
+        <p>We hebben nu een appartement waar we de komende weken/maanden zullen wonen.</p>
+        <div id="links" class="gallery">
+            <a href="img/938f2af182a90103015a0da1be0fbf0b.jpg"><img src="thumb/938f2af182a90103015a0da1be0fbf0b.jpg"></a>
+            <a href="img/593a3fd66071d011577a6ec8a09da234.jpg"><img src="thumb/593a3fd66071d011577a6ec8a09da234.jpg"></a>
+            <a href="img/d3d13652d43245c304bea1a3efb6001d.jpg"><img src="thumb/d3d13652d43245c304bea1a3efb6001d.jpg"></a>
+        </div>
+        <p>Omdat ons appartement niet in het schooldistrict ligt waar we de kinderen naar school willen laten gaan zijn
+            we vandaag al met Wendy (degene die ons hier helpt de boel op te starten) op huizenjacht geweest. Het zijn
+            hier flinke huizen maar we hebben nog geen keus gemaakt. We zijn ook nog niet helemaal omgeschakeld dus
+            vroeg naar bed en vroeg weer wakker. De koters maken het goed. Zijn enthousiast en hebben het gevoel op
+            vakantie te zijn.</p>
+        <div id="links" class="gallery">
+            <a href="img/762564ef3ec65c74eee8f7f49d22f803.jpg"><img src="thumb/762564ef3ec65c74eee8f7f49d22f803.jpg"></a>
+            <a href="img/2422ae3193ed7fbf0d2afcbf0d0fb592.jpg"><img src="thumb/2422ae3193ed7fbf0d2afcbf0d0fb592.jpg"></a>
+        </div>
+        <p>De afgelopen dagen zijn we de omgeving en de supermarkten al wat gaan verkennen. Zijn allebei heeel
+            indrukwekkend! 🙂 Alles BIG en uitgestrekt.
+            Het is moeilijk om hier even een paar boodschappen te doen. Er is zo’n mega assortiment van alles dat je
+            gewoon niet weet waar je moet beginnen.</p>
+        <p>Vandaag bankzaken opgestart en volgende week gaan de kinderen hun taaltest doen. Dit is nodig om te bepalen
+            op welk Amerikaans niveau zij zitten.
+            Volgende week zaterdag kunnen ze misschien al naar de Oranjeschool op Mercer island. Daar zijn we gisteren
+            al even wezen wandelen in de bossen. Een heel bosrijk eiland in Lake Washington. De herfst kleuren zijn
+            schitterend!</p>
+        <div id="links" class="gallery">
+            <a href="img/7c51fbcd6426a100f83761eba51ee561.jpg"><img src="thumb/7c51fbcd6426a100f83761eba51ee561.jpg"></a>
+            <a href="img/95d0f56efcd93f98c0e705d06c26a9b5.jpg"><img src="thumb/95d0f56efcd93f98c0e705d06c26a9b5.jpg"></a>
+        </div>
+    </div>
+    <div id="gallery"></div>
+    <footer class="footer">
+        <div id="footer"></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/gallery.js"></script>
+    <script>
+        $(function () {
+            $("#gallery").load("/gallery.html");
+            $("#footer").load("/footer.html");
+            wireUpLinks();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.33.0/js/blueimp-gallery.min.js" integrity="sha256-ZbBVsWhU9YSV3AZky7xcIVDC4to1i3hUBLmOZ5JkMbQ=" crossorigin="anonymous"></script>
+</body>
+
+</html>
