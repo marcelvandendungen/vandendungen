@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.33.0/css/blueimp-gallery.min.css" integrity="sha256-Y0i7rzAjNSxOrq/x6gK6k0OeK1V2WNWwjh0/l+KapNk=" crossorigin="anonymous" />
+    <title>van den Dungen - Blog - Najaar 2010 en Halloween</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <span><a href="/blog/20100906/">Previous</a></span>
+        <span><a href="/blog/">Index</a></span>
+        <span><a href="/blog/20110101/">Next</a></span>
+    </div>
+    <div class="content">
+        <h1>Najaar 2010 en Halloween</h1>
+        <div>Gepubliceerd op 31 december 2010</div>
+        <p>Het heeft even geduurd, maar ons blog heeft nu ook een nieuw adres met weer de laatste nieuwe foto’s.</p>
+        <div id="links" class="gallery">
+            <a href="img/img_6379.jpg"><img src="img/img_6379.jpg"></a>
+            <a href="img/img_6470.jpg"><img src="img/img_6470.jpg"></a>
+        </div>
+        <p>Melle op haar lievelingspaard ‘Winter’.</p>
+        <div id="links" class="gallery">
+            <a href="img/img_6352.jpg"><img src="img/img_6352.jpg"></a>
+            <a href="img/img_6422.jpg"><img src="img/img_6422.jpg"></a>
+            <a href="img/img_6418.jpg"><img src="img/img_6418.jpg"></a>
+            <a href="img/img_6429.jpg"><img src="img/img_6429.jpg"></a>
+        </div>
+        <p>‘Trick and Treat’ van deur naar deur in de wijk.</p>
+        <div id="links" class="gallery">
+            <a href="img/img_6434.jpg"><img src="img/img_6434.jpg"></a>
+            <a href="img/img_6386.jpg"><img src="img/img_6386.jpg"></a>
+            <a href="img/img_6458.jpg"><img src="img/img_6458.jpg"></a>
+            <a href="img/img_6460.jpg"><img src="img/img_6460.jpg"></a>
+        </div>
+        <p>Ook hier begon de winter vroeg. Een paar dagen lekker sleeen in de straat met de buurt.</p>
+        <div id="links" class="gallery">
+            <a href="img/img_6462.jpg"><img src="img/img_6462.jpg"></a>
+            <a href="img/img_6463.jpg"><img src="img/img_6463.jpg"></a>
+        </div>
+    </div>
+    <div id="gallery"></div>
+    <footer class="footer">
+        <div id="footer"></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/gallery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#gallery").load("/gallery.html");
+            $("#footer").load("/footer.html");
+            $('img').each(function() {
+                var $img = $(this);
+                $img.width($img.width() * .4);
+            });
+            wireUpLinks();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.33.0/js/blueimp-gallery.min.js" integrity="sha256-ZbBVsWhU9YSV3AZky7xcIVDC4to1i3hUBLmOZ5JkMbQ=" crossorigin="anonymous"></script>
+</body>
+</html>
